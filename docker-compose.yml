@@ -9,7 +9,7 @@ services:
       REVERSE_PROXY_DOMAIN_NAME: ${REVERSE_PROXY_DOMAIN_NAME}
 
   mattermost:
-    image: mattermost/mattermost-prod-app
+    image: mattermost/mattermost-prod-app:3.9.0
     environment:
       MATTERMOST_ENABLE_SSL: "true"
       DB_HOST: db

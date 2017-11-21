@@ -15,7 +15,7 @@ This may take a few minutes.
 
 ```sh
 # Wildcard DNS
-echo 'REVERSE_PROXY_DOMAIN_NAME=192.168.1.2.xip.io' > .env
+echo 'REVERSE_PROXY_DOMAIN_NAME=127.0.0.1.xip.io' > .env
 
 # Custom domain
 echo 'REVERSE_PROXY_DOMAIN_NAME=example.com' > .env
